@@ -3,10 +3,12 @@
 //  Include $variables at the top of @import file
 //-------------------------------------------------------------------------------
 
+
 // DEFAULT COLORS
 // -------------------------
 $white:                 #ffffff;
 $black:                 #000000;
+
 
 // GRAYS
 // -------------------------
@@ -22,31 +24,39 @@ $gray-dark:             #333333;
 $gray-darker:           #222222;
 $gray-darker-black:     #090909;
 
+
+// CORE COLORS
+// -------------------------
+$red:                   #fb1919;                    // #fb1919
+$green:                 #8cc050;                    // #8cc050
+$yellow:                #f3c502;                    // #f3c502
+
+
 // REDS
 // -------------------------
-$nice-red:              #fe0236;
+$nice-red-light:        #f26f53;                    // source unknown
+$nice-red:              #fe0236;                    // source unknown
+$red-material:          #a52a2a;                    // source unknown
 
-$red-light:             #f26f53;
-$red:                   #fb1919;
-$red-dark:              #a52a2a;    // darken($red, 20%) [from #fb1919]
-$red-darker:            #7e0202;    // darken($red, 29%) [from #fb1919]
-$red-material:          #a52a2a;
+$red-light:             lighten($red, 15%)          // #fc6464
+$red:                   $red;                       // $red
+$red-dark:              darken($red, 20%);          // #ab0303
+$red-darker:            darken($red, 30%);          // #790202
+
 
 // YELLOWS
 // -------------------------
-$yellow:                #f3c327;    // "GOLD"
-$yellow-light:          #f5d249;
-$orange:                #f58f07;    // mix($red, $yellow, 30%);
-$orange-light:          #f4a005;    // mix($red, $yellow, 20%);
-
+$yellow-light:          lighten($yellow, 20%);      // #fedf5d
+$yellow:                $yellow;                    // $yellow
+$orange:                mix($red, $yellow, 30%);    // #f59109
+$orange-light:          mix($red, $yellow, 15%);    // #f4ab05
 $brand-warning:         $yellow;
 
 
 // GREENS
 // -------------------------
-$green-light:           #a0ce69;
-$green:                 #8cc050;
-$green-dark:            #587d2d;    // darken($green, 20%) [from #8cc050]
+$green-light:           lighten($green, 10%);       // #a5ce76
+$green:                 $green;                     // $green
+$green-dark:            darken($green, 20%);        // #587d2d
 
 $green-lime:            #60ef15;
-$green-pricing:         #72ce3f;
