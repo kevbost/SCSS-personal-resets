@@ -38,7 +38,7 @@ $nice-red-light:        #f26f53;                    // source unknown
 $nice-red:              #fe0236;                    // source unknown
 $red-material:          #a52a2a;                    // source unknown
 
-$red-light:             lighten($red, 15%)          // #fc6464
+$red-light:             lighten($red, 15%);          // #fc6464
 $red:                   $red;                       // $red
 $red-dark:              darken($red, 20%);          // #ab0303
 $red-darker:            darken($red, 30%);          // #790202
