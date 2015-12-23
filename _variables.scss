@@ -1,0 +1,52 @@
+//-------------------------------------------------------------------------------
+//  VARIABLES that can be used throughout connected .scss files.
+//  Include $variables at the top of @import file
+//-------------------------------------------------------------------------------
+
+// DEFAULT COLORS
+// -------------------------
+$white:                 #ffffff;
+$black:                 #000000;
+
+// GRAYS
+// -------------------------
+$gray-lighter-white:    #fafafa;
+$gray-lighter:          #eeeeee;
+$gray-light-mid-mid:    #e6e7e8;
+$gray-light-mid:        #dddddd;
+$gray-light:            #b3b3b3;
+$gray-mid-light:        #777777;
+$gray-mid:              #5f5f5f;
+$gray:                  #414042;
+$gray-dark:             #333333;
+$gray-darker:           #222222;
+$gray-darker-black:     #090909;
+
+// REDS
+// -------------------------
+$nice-red:              #fe0236;
+
+$red-light:             #f26f53;
+$red:                   #fb1919;
+$red-dark:              #a52a2a;    // darken($red, 20%) [from #fb1919]
+$red-darker:            #7e0202;    // darken($red, 29%) [from #fb1919]
+$red-material:          #a52a2a;
+
+// YELLOWS
+// -------------------------
+$yellow:                #f3c327;    // "GOLD"
+$yellow-light:          #f5d249;
+$orange:                #f58f07;    // mix($red, $yellow, 30%);
+$orange-light:          #f4a005;    // mix($red, $yellow, 20%);
+
+$brand-warning:         $yellow;
+
+
+// GREENS
+// -------------------------
+$green-light:           #a0ce69;
+$green:                 #8cc050;
+$green-dark:            #587d2d;    // darken($green, 20%) [from #8cc050]
+
+$green-lime:            #60ef15;
+$green-pricing:         #72ce3f;
